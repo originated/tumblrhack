@@ -61,6 +61,8 @@ GEM
     omniauth-oauth (1.0.1)
       oauth
       omniauth (~> 1.0)
+    omniauth-tumblr (1.0)
+      omniauth-oauth (~> 1.0)
     omniauth-twitter (0.0.8)
       omniauth-oauth (~> 1.0)
     pg (0.13.2)
@@ -116,6 +118,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
   omniauth
+  omniauth-tumblr
   omniauth-twitter
   pg
   rails (= 3.2.3)
